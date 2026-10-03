@@ -73,7 +73,7 @@ const Shop = () => {
                 console.error("Shop Error:", err);
 
                 setError(
-                    "Products load nahi ho rahe hain. Backend check karo."
+                    "Products aren't loading. Check the backend."
                 );
 
                 setAllProducts([]);
@@ -997,9 +997,9 @@ const Shop = () => {
                                                     })
                                                 }
                                                 className={`w-12 h-12 rounded-lg flex items-center justify-center ${currentPage ===
-                                                        page
-                                                        ? "bg-black text-white"
-                                                        : "bg-white shadow hover:bg-gray-100"
+                                                    page
+                                                    ? "bg-black text-white"
+                                                    : "bg-white shadow hover:bg-gray-100"
                                                     }`}
                                             >
 
